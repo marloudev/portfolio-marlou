@@ -76,8 +76,8 @@ export default function ExperienceSection() {
                         {posts.map((post) => (
                             <article
                                 key={post.id}
-                                className="relative h-auto isolate flex flex-col md:flex-row gap-6 bg-white/5 rounded-2xl p-4 ring-1 ring-white/10"
-                            >
+                                className="relative h-auto isolate flex flex-col md:flex-row gap-6 bg-white/5 rounded-2xl p-4 ring-1 ring-white/10 transform transition duration-300 ease-in-out hover:scale-[1.02] hover:ring-white"
+                                >
                                 <div className="relative aspect-[16/9] md:aspect-square md:w-40 flex-shrink-0">
                                     <img
                                         alt={post.title}

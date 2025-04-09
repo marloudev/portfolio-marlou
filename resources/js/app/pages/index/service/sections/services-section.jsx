@@ -101,7 +101,7 @@ export default function ServicesSection() {
               key={tier.id}
               className={classNames(
                 tier.mostPopular ? 'bg-white/5 ring-2 ring-indigo-500' : 'ring-1 ring-white/10',
-                'rounded-3xl p-8 xl:p-10'
+                'rounded-3xl p-8 xl:p-10 transform transition duration-300 ease-in-out hover:scale-105 hover:ring-indigo-400'
               )}
             >
               <div className="flex items-center justify-between gap-x-4">

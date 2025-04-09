@@ -53,14 +53,15 @@ const posts = [
         datetime: "2020-03-16",
     },
     {
-      id: 6,
-      title: "Colegio de Santa Rita de San Carlos, Inc.",
-      href: "https://csr-grading-system.site",
-      description:"Colegio de Santa Rita de San Carlos, Inc. prides itself on providing quality education with an efficient and transparent grading system. The institution aims to keep students, teachers, and parents informed about academic progress in real time through a modern and reliable grading solution.",
-       imageUrl: "/images/project.png",
-      date: "Mar 16, 2020",
-      datetime: "2020-03-16",
-  },
+        id: 6,
+        title: "Colegio de Santa Rita de San Carlos, Inc.",
+        href: "https://csr-grading-system.site",
+        description:
+            "Colegio de Santa Rita de San Carlos, Inc. prides itself on providing quality education with an efficient and transparent grading system. The institution aims to keep students, teachers, and parents informed about academic progress in real time through a modern and reliable grading solution.",
+        imageUrl: "/images/project.png",
+        date: "Mar 16, 2020",
+        datetime: "2020-03-16",
+    },
 ];
 
 export default function ExperienceSection() {
@@ -76,7 +77,7 @@ export default function ExperienceSection() {
                         {posts.map((post) => (
                             <article
                                 key={post.id}
-                                className="relative h-auto isolate flex flex-col md:flex-row gap-6 bg-white/5 rounded-2xl p-4 ring-1 ring-white/10"
+                                className="relative h-auto isolate flex flex-col md:flex-row gap-6 bg-white/5 rounded-2xl p-4 ring-1 ring-white/10 transform transition duration-300 ease-in-out hover:scale-[1.02] hover:ring-white"
                             >
                                 <div className="relative aspect-[16/9] md:aspect-square md:w-40 flex-shrink-0">
                                     <img
