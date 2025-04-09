@@ -90,7 +90,7 @@ export default function ServicesSection() {
     <div className="bg-black pb-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <p className="mt-2 text-5xl font-semibold tracking-tight text-balance text-white sm:text-6xl">
+          <p className=" text-5xl font-semibold tracking-tight text-balance text-white sm:text-6xl">
             Services
           </p>
         </div>

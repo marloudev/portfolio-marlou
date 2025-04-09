@@ -1,0 +1,423 @@
+{
+  "_CheckIcon-uXMuErc6.js": {
+    "file": "assets/CheckIcon-uXMuErc6.js",
+    "name": "CheckIcon",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_dialog-CBwI_dUc.js": {
+    "file": "assets/dialog-CBwI_dUc.js",
+    "name": "dialog",
+    "imports": [
+      "resources/js/app.jsx",
+      "_transition-DDMYULKS.js"
+    ]
+  },
+  "_moment-C5S46NFB.js": {
+    "file": "assets/moment-C5S46NFB.js",
+    "name": "moment"
+  },
+  "_transition-DDMYULKS.js": {
+    "file": "assets/transition-DDMYULKS.js",
+    "name": "transition",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-DiGM6kvy.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/app/pages/administrator/dashboard/page.jsx",
+      "resources/js/app/pages/administrator/layout.jsx",
+      "resources/js/app/pages/administrator/users/page.jsx",
+      "resources/js/app/pages/auth/login/page.jsx",
+      "resources/js/app/pages/auth/register/page.jsx",
+      "resources/js/app/pages/index/about/page.jsx",
+      "resources/js/app/pages/index/about/sections/about-me-section.jsx",
+      "resources/js/app/pages/index/about/sections/school-section.jsx",
+      "resources/js/app/pages/index/about/sections/skills-section.jsx",
+      "resources/js/app/pages/index/contact_me/page.jsx",
+      "resources/js/app/pages/index/contact_me/sections/contact-me-section.jsx",
+      "resources/js/app/pages/index/homepage/_components/flutter-logo.jsx",
+      "resources/js/app/pages/index/homepage/_components/laravel-logo.jsx",
+      "resources/js/app/pages/index/homepage/_components/mysql-logo.jsx",
+      "resources/js/app/pages/index/homepage/_components/nodejs-logo.jsx",
+      "resources/js/app/pages/index/homepage/_components/react-logo.jsx",
+      "resources/js/app/pages/index/homepage/_components/redux-logo.jsx",
+      "resources/js/app/pages/index/homepage/_sections/about-section.jsx",
+      "resources/js/app/pages/index/homepage/_sections/cover-section..jsx",
+      "resources/js/app/pages/index/homepage/_sections/experience-section.jsx",
+      "resources/js/app/pages/index/homepage/_sections/footer-section.jsx",
+      "resources/js/app/pages/index/homepage/_sections/header-section.jsx",
+      "resources/js/app/pages/index/homepage/_sections/services-section.jsx",
+      "resources/js/app/pages/index/homepage/_sections/skills-section.jsx",
+      "resources/js/app/pages/index/homepage/_sections/stack-section.jsx",
+      "resources/js/app/pages/index/homepage/page.jsx",
+      "resources/js/app/pages/index/layout.jsx",
+      "resources/js/app/pages/index/my_team/page.jsx",
+      "resources/js/app/pages/index/portfolio/page.jsx",
+      "resources/js/app/pages/index/portfolio/sections/experience-section.jsx",
+      "resources/js/app/pages/index/service/page.jsx",
+      "resources/js/app/pages/index/service/sections/services-section.jsx"
+    ],
+    "css": [
+      "assets/app-DqtyGm7a.css"
+    ]
+  },
+  "resources/js/app/pages/administrator/dashboard/page.jsx": {
+    "file": "assets/page-zfDcLB5f.js",
+    "name": "page",
+    "src": "resources/js/app/pages/administrator/dashboard/page.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/app/pages/administrator/layout.jsx",
+      "_dialog-CBwI_dUc.js",
+      "_transition-DDMYULKS.js"
+    ]
+  },
+  "resources/js/app/pages/administrator/layout.jsx": {
+    "file": "assets/layout-B5Hrn0dB.js",
+    "name": "layout",
+    "src": "resources/js/app/pages/administrator/layout.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_transition-DDMYULKS.js"
+    ]
+  },
+  "resources/js/app/pages/administrator/users/page.jsx": {
+    "file": "assets/page-Hn1ddqnB.js",
+    "name": "page",
+    "src": "resources/js/app/pages/administrator/users/page.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/pages/auth/login/page.jsx": {
+    "file": "assets/page-DqIgNGw1.js",
+    "name": "page",
+    "src": "resources/js/app/pages/auth/login/page.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/pages/auth/register/page.jsx": {
+    "file": "assets/page-CrKFakC3.js",
+    "name": "page",
+    "src": "resources/js/app/pages/auth/register/page.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/pages/index/about/page.jsx": {
+    "file": "assets/page-DbtBM4_R.js",
+    "name": "page",
+    "src": "resources/js/app/pages/index/about/page.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/app/pages/index/layout.jsx",
+      "resources/js/app/pages/index/about/sections/about-me-section.jsx",
+      "resources/js/app/pages/index/about/sections/skills-section.jsx",
+      "resources/js/app/pages/index/about/sections/school-section.jsx",
+      "resources/js/app/pages/index/homepage/_sections/header-section.jsx",
+      "_transition-DDMYULKS.js",
+      "_dialog-CBwI_dUc.js"
+    ]
+  },
+  "resources/js/app/pages/index/about/sections/about-me-section.jsx": {
+    "file": "assets/about-me-section-Hv6MYpD2.js",
+    "name": "about-me-section",
+    "src": "resources/js/app/pages/index/about/sections/about-me-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/pages/index/about/sections/school-section.jsx": {
+    "file": "assets/school-section-Cuwk7Sjn.js",
+    "name": "school-section",
+    "src": "resources/js/app/pages/index/about/sections/school-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/pages/index/about/sections/skills-section.jsx": {
+    "file": "assets/skills-section-Bgrzcyd8.js",
+    "name": "skills-section",
+    "src": "resources/js/app/pages/index/about/sections/skills-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/pages/index/contact_me/page.jsx": {
+    "file": "assets/page-DTBD1W6T.js",
+    "name": "page",
+    "src": "resources/js/app/pages/index/contact_me/page.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/app/pages/index/layout.jsx",
+      "resources/js/app/pages/index/contact_me/sections/contact-me-section.jsx",
+      "resources/js/app/pages/index/homepage/_sections/header-section.jsx",
+      "_transition-DDMYULKS.js",
+      "_dialog-CBwI_dUc.js"
+    ]
+  },
+  "resources/js/app/pages/index/contact_me/sections/contact-me-section.jsx": {
+    "file": "assets/contact-me-section-CKipyvzS.js",
+    "name": "contact-me-section",
+    "src": "resources/js/app/pages/index/contact_me/sections/contact-me-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/pages/index/homepage/_components/flutter-logo.jsx": {
+    "file": "assets/flutter-logo-dHIqev37.js",
+    "name": "flutter-logo",
+    "src": "resources/js/app/pages/index/homepage/_components/flutter-logo.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/pages/index/homepage/_components/laravel-logo.jsx": {
+    "file": "assets/laravel-logo-CRcbNuwy.js",
+    "name": "laravel-logo",
+    "src": "resources/js/app/pages/index/homepage/_components/laravel-logo.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/pages/index/homepage/_components/mysql-logo.jsx": {
+    "file": "assets/mysql-logo-D1eMNzXU.js",
+    "name": "mysql-logo",
+    "src": "resources/js/app/pages/index/homepage/_components/mysql-logo.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/pages/index/homepage/_components/nodejs-logo.jsx": {
+    "file": "assets/nodejs-logo-BZ3quaFn.js",
+    "name": "nodejs-logo",
+    "src": "resources/js/app/pages/index/homepage/_components/nodejs-logo.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/pages/index/homepage/_components/react-logo.jsx": {
+    "file": "assets/react-logo-kno36Nb7.js",
+    "name": "react-logo",
+    "src": "resources/js/app/pages/index/homepage/_components/react-logo.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/pages/index/homepage/_components/redux-logo.jsx": {
+    "file": "assets/redux-logo-C59BZueD.js",
+    "name": "redux-logo",
+    "src": "resources/js/app/pages/index/homepage/_components/redux-logo.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/pages/index/homepage/_sections/about-section.jsx": {
+    "file": "assets/about-section-BC-O-y8q.js",
+    "name": "about-section",
+    "src": "resources/js/app/pages/index/homepage/_sections/about-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/pages/index/homepage/_sections/cover-section..jsx": {
+    "file": "assets/cover-section.-BkuYQYfY.js",
+    "name": "cover-section.",
+    "src": "resources/js/app/pages/index/homepage/_sections/cover-section..jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/pages/index/homepage/_sections/experience-section.jsx": {
+    "file": "assets/experience-section-CsSbYTyx.js",
+    "name": "experience-section",
+    "src": "resources/js/app/pages/index/homepage/_sections/experience-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_moment-C5S46NFB.js"
+    ]
+  },
+  "resources/js/app/pages/index/homepage/_sections/footer-section.jsx": {
+    "file": "assets/footer-section-BArzz1Zp.js",
+    "name": "footer-section",
+    "src": "resources/js/app/pages/index/homepage/_sections/footer-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/pages/index/homepage/_sections/header-section.jsx": {
+    "file": "assets/header-section-DEXsUfj0.js",
+    "name": "header-section",
+    "src": "resources/js/app/pages/index/homepage/_sections/header-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_transition-DDMYULKS.js",
+      "_dialog-CBwI_dUc.js"
+    ]
+  },
+  "resources/js/app/pages/index/homepage/_sections/services-section.jsx": {
+    "file": "assets/services-section-D45rC0EO.js",
+    "name": "services-section",
+    "src": "resources/js/app/pages/index/homepage/_sections/services-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_CheckIcon-uXMuErc6.js"
+    ]
+  },
+  "resources/js/app/pages/index/homepage/_sections/skills-section.jsx": {
+    "file": "assets/skills-section-CzC-7nXr.js",
+    "name": "skills-section",
+    "src": "resources/js/app/pages/index/homepage/_sections/skills-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/app/pages/index/homepage/_sections/stack-section.jsx": {
+    "file": "assets/stack-section-p6jvcF5p.js",
+    "name": "stack-section",
+    "src": "resources/js/app/pages/index/homepage/_sections/stack-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/app/pages/index/homepage/_components/redux-logo.jsx",
+      "resources/js/app/pages/index/homepage/_components/laravel-logo.jsx",
+      "resources/js/app/pages/index/homepage/_components/react-logo.jsx",
+      "resources/js/app/pages/index/homepage/_components/flutter-logo.jsx",
+      "resources/js/app/pages/index/homepage/_components/nodejs-logo.jsx"
+    ]
+  },
+  "resources/js/app/pages/index/homepage/page.jsx": {
+    "file": "assets/page-C5Rx_JzJ.js",
+    "name": "page",
+    "src": "resources/js/app/pages/index/homepage/page.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/app/pages/index/homepage/_sections/cover-section..jsx",
+      "resources/js/app/pages/index/homepage/_sections/stack-section.jsx",
+      "resources/js/app/pages/index/homepage/_sections/about-section.jsx",
+      "resources/js/app/pages/index/homepage/_sections/experience-section.jsx",
+      "resources/js/app/pages/index/homepage/_sections/footer-section.jsx",
+      "resources/js/app/pages/index/homepage/_sections/skills-section.jsx",
+      "resources/js/app/pages/index/layout.jsx",
+      "resources/js/app/pages/index/homepage/_sections/services-section.jsx",
+      "resources/js/app/pages/index/homepage/_components/redux-logo.jsx",
+      "resources/js/app/pages/index/homepage/_components/laravel-logo.jsx",
+      "resources/js/app/pages/index/homepage/_components/react-logo.jsx",
+      "resources/js/app/pages/index/homepage/_components/flutter-logo.jsx",
+      "resources/js/app/pages/index/homepage/_components/nodejs-logo.jsx",
+      "_moment-C5S46NFB.js",
+      "resources/js/app/pages/index/homepage/_sections/header-section.jsx",
+      "_transition-DDMYULKS.js",
+      "_dialog-CBwI_dUc.js",
+      "_CheckIcon-uXMuErc6.js"
+    ]
+  },
+  "resources/js/app/pages/index/layout.jsx": {
+    "file": "assets/layout-tYGRyygv.js",
+    "name": "layout",
+    "src": "resources/js/app/pages/index/layout.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/app/pages/index/homepage/_sections/header-section.jsx",
+      "_transition-DDMYULKS.js",
+      "_dialog-CBwI_dUc.js"
+    ]
+  },
+  "resources/js/app/pages/index/my_team/page.jsx": {
+    "file": "assets/page-DCTHctAH.js",
+    "name": "page",
+    "src": "resources/js/app/pages/index/my_team/page.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/app/pages/index/layout.jsx",
+      "resources/js/app/pages/index/homepage/_sections/header-section.jsx",
+      "_transition-DDMYULKS.js",
+      "_dialog-CBwI_dUc.js"
+    ]
+  },
+  "resources/js/app/pages/index/portfolio/page.jsx": {
+    "file": "assets/page-ceEtyj-6.js",
+    "name": "page",
+    "src": "resources/js/app/pages/index/portfolio/page.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/app/pages/index/layout.jsx",
+      "resources/js/app/pages/index/portfolio/sections/experience-section.jsx",
+      "resources/js/app/pages/index/homepage/_sections/header-section.jsx",
+      "_transition-DDMYULKS.js",
+      "_dialog-CBwI_dUc.js",
+      "_moment-C5S46NFB.js"
+    ]
+  },
+  "resources/js/app/pages/index/portfolio/sections/experience-section.jsx": {
+    "file": "assets/experience-section-Db9zpdgw.js",
+    "name": "experience-section",
+    "src": "resources/js/app/pages/index/portfolio/sections/experience-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_moment-C5S46NFB.js"
+    ]
+  },
+  "resources/js/app/pages/index/service/page.jsx": {
+    "file": "assets/page-FMJpze6l.js",
+    "name": "page",
+    "src": "resources/js/app/pages/index/service/page.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/app/pages/index/layout.jsx",
+      "resources/js/app/pages/index/service/sections/services-section.jsx",
+      "resources/js/app/pages/index/homepage/_sections/header-section.jsx",
+      "_transition-DDMYULKS.js",
+      "_dialog-CBwI_dUc.js",
+      "_CheckIcon-uXMuErc6.js"
+    ]
+  },
+  "resources/js/app/pages/index/service/sections/services-section.jsx": {
+    "file": "assets/services-section-B5Z2L5I1.js",
+    "name": "services-section",
+    "src": "resources/js/app/pages/index/service/sections/services-section.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_CheckIcon-uXMuErc6.js"
+    ]
+  }
+}
