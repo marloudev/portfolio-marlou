@@ -45,6 +45,15 @@ export default function CoverSection() {
                             </a>
                         </div>
                     </motion.div>
+                    <br />
+                    <a
+                        type="submit"
+                        target="_blank"
+                        href="/pdf/MarlouPepito-CV.pdf"
+                        className="rounded-md bg-black border-2 border-white px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs  focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                    >
+                        OPEN C.V.
+                    </a>
                 </div>
                 <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
                     <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">

@@ -1,1 +1,0 @@
-import{j as r}from"./app-DiGM6kvy.js";import o from"./layout-tYGRyygv.js";import t from"./experience-section-Db9zpdgw.js";import"./header-section-DEXsUfj0.js";import"./transition-DDMYULKS.js";import"./dialog-CBwI_dUc.js";import"./moment-C5S46NFB.js";function a(){return r.jsx(o,{children:r.jsx(t,{})})}export{a as default};
