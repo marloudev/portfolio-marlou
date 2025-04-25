@@ -1,1 +1,0 @@
-import{j as r}from"./app-Bb4c0QEs.js";import t from"./layout-CtGxlxsR.js";import"./header-section-BOfkd-6o.js";import"./transition-C1vJiQNc.js";import"./dialog-Dy8Mq6jV.js";function p(){return r.jsx(t,{children:"My Team Page"})}export{p as default};
