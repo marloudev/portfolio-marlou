@@ -10,7 +10,7 @@ const posts = [
             "EmpireOne HRIS integrates seamless recruitment tools that allow you to post job openings, track applicants, and manage the interview process. From entry-level roles like call center agents to specialized positions, EmpireOne helps you find the right fit quickly.\n\nKeep track of all candidate interactions, including resumes, assessments, and interview notes, all in one place. The platform provides a centralized dashboard to streamline candidate screening and selection.",
         imageUrl: "/images/project.png",
         // date: "Mar 16, 2020",
-        datetime: "2020-03-16",
+        // datetime: "2020-03-16",
     },
     {
         id: 2,
@@ -20,7 +20,7 @@ const posts = [
             "The EmpireOne Financing platform is a comprehensive, user-friendly solution designed to provide employees with access to financial assistance in the form of loans, once they have completed their regularization period. With streamlined loan application processes, secure e-signature capabilities, and flexible repayment options, this system helps enhance employee satisfaction while promoting financial well-being.Employees become eligible to apply for a loan once they have successfully completed their regularization period, ensuring that only qualified employees benefit from the program",
         imageUrl: "/images/project.png",
         // date: "Mar 16, 2020",
-        datetime: "2020-03-16",
+        // datetime: "2020-03-16",
     },
     {
         id: 3,
@@ -30,7 +30,7 @@ const posts = [
             "The EmpireOne IT Ticketing System is a robust, intuitive platform designed to streamline IT support processes, ensuring that agents and employees can efficiently report and resolve technical issues. With seamless ticket creation, real-time ticket tracking, and powerful troubleshooting capabilities, the system enhances productivity and ensures timely resolution of IT-related problems. As soon as a ticket is created, the IT support team receives a real-time notification, ensuring no issue goes unnoticed or unresolved.",
         imageUrl: "/images/project.png",
         // date: "Mar 16, 2020",
-        datetime: "2020-03-16",
+        // datetime: "2020-03-16",
     },
     {
         id: 4,
@@ -40,7 +40,7 @@ const posts = [
             "CURTIS Customer Relationship Management (CRM) system is designed to streamline and enhance the post-purchase experience by integrating powerful features for managing warranty claims, refunds, and replacements. With these functionalities, businesses can efficiently handle customer issues, ensure satisfaction, and maintain a strong relationship with their clients.",
         imageUrl: "/images/project.png",
         // date: "Mar 16, 2020",
-        datetime: "2020-03-16",
+        // datetime: "2020-03-16",
     },
     {
         id: 5,
@@ -50,7 +50,7 @@ const posts = [
             "Blue Waves Sipaway offers a tranquil island escape for families, couples, and adventure seekers. To enhance the guest experience, we developed a smooth online reservation system with integrated online payment options—making bookings faster, easier, and more secure.",
         imageUrl: "/images/project.png",
         // date: "Mar 16, 2020",
-        datetime: "2020-03-16",
+        // datetime: "2020-03-16",
     },
     {
       id: 6,
@@ -59,7 +59,7 @@ const posts = [
       description:"Colegio de Santa Rita de San Carlos, Inc. prides itself on providing quality education with an efficient and transparent grading system. The institution aims to keep students, teachers, and parents informed about academic progress in real time through a modern and reliable grading solution.",
        imageUrl: "/images/project.png",
     //   date: "Mar 16, 2020",
-      datetime: "2020-03-16",
+    //   datetime: "2020-03-16",
   },
 ];
 
@@ -90,12 +90,12 @@ export default function ExperienceSection() {
                                 <div className="flex flex-col justify-between">
                                     <div>
                                         <div className="flex items-center gap-x-4 text-xs">
-                                            <time
+                                            {/* <time
                                                 dateTime={post.datetime}
                                                 className="text-gray-400"
                                             >
                                                 {moment(post.date).format("LL")}
-                                            </time>
+                                            </time> */}
                                             <a
                                                 target="_blank"
                                                 href={post.href}

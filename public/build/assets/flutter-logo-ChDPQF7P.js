@@ -1,0 +1,1 @@
+import{j as t}from"./app-rw1t74YL.js";function r(){return t.jsx(t.Fragment,{children:t.jsx("img",{src:"/images/flutter.svg",alt:"Flutter Logo",className:"text-7xl text-emerald-600",width:65,height:65})})}export{r as default};

@@ -91,12 +91,12 @@ export default function ExperienceSection() {
                                 <div className="flex flex-col justify-between">
                                     <div>
                                         <div className="flex items-center gap-x-4 text-xs">
-                                            <time
+                                            {/* <time
                                                 dateTime={post.datetime}
                                                 className="text-gray-400"
                                             >
                                                 {moment(post.date).format("LL")}
-                                            </time>
+                                            </time> */}
                                             <a
                                                 target="_blank"
                                                 href={post.href}
