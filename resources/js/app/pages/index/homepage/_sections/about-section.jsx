@@ -35,7 +35,7 @@ export default function AboutSection() {
             </h2>
             <p className="mt-6 text-base md:text-lg leading-7 md:leading-8 text-gray-300">
               I am a dedicated and versatile full stack developer with a passion
-              for creating efficient and user-friendly web applications. With 2
+              for creating efficient and user-friendly web applications. With 7
               and a half years of professional experience, I have worked with a
               variety of technologies, including ReactJs, Redux, and Tailwind
               CSS, combined with back-end experience in Laravel. My journey in
