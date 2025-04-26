@@ -41,7 +41,7 @@ export default function CoverSection() {
                                 href="#"
                                 className=" font-semibold leading-6 text-white text-4xl"
                             >
-                                Software Engineer
+                                Full Stack Developer
                             </a>
                         </div>
                     </motion.div>
