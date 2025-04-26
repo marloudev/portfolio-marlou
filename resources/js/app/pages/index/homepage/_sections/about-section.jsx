@@ -1,8 +1,7 @@
-
 export default function AboutSection() {
-  return (
-    <div className="relative isolate overflow-hidden">
-      {/* <div
+    return (
+        <div className="relative isolate overflow-hidden">
+            {/* <div
         aria-hidden="true"
         className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
       >
@@ -26,40 +25,44 @@ export default function AboutSection() {
           className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
         />
       </div> */}
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          {/* Text Section */}
-          <div>
-            <h2 className="text-3xl lg:text-5xl font-black text-white">
-              About Me
-            </h2>
-            <p className="mt-6 text-base md:text-lg leading-7 md:leading-8 text-gray-300">
-              I am a dedicated and versatile full stack developer with a passion
-              for creating efficient and user-friendly web applications. With 7
-              and a half years of professional experience, I have worked with a
-              variety of technologies, including ReactJs, Redux, and Tailwind
-              CSS, combined with back-end experience in Laravel. My journey in
-              web development began with a deep curiosity for how things work,
-              and it has evolved into a career where I continuously strive to
-              learn and adapt to new challenges. I thrive in collaborative
-              environments and enjoy solving complex problems to deliver
-              high-quality solutions. Outside of coding, I enjoy staying active
-              and exploring new technologies.
-            </p>
-          </div>
+            <div className="mx-auto max-w-7xl px-6 lg:px-8 py-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    {/* Text Section */}
+                    <div>
+                        <h2 className="text-3xl lg:text-5xl font-black text-white">
+                            About Me
+                        </h2>
+                        <p className="mt-6 text-base md:text-lg leading-7 md:leading-8 text-gray-300">
+                            I am a dedicated and versatile full stack developer
+                            with a passion for creating efficient and
+                            user-friendly web applications. With 3 years of
+                            professional experience and 7 years overall in
+                            Software Development. I have worked with a variety
+                            of technologies, including ReactJs, Redux, and
+                            Tailwind CSS, combined with back-end experience in
+                            Laravel. My journey in web development began with a
+                            deep curiosity for how things work, and it has
+                            evolved into a career where I continuously strive to
+                            learn and adapt to new challenges. I thrive in
+                            collaborative environments and enjoy solving complex
+                            problems to deliver high-quality solutions. Outside
+                            of coding, I enjoy staying active and exploring new
+                            technologies.
+                        </p>
+                    </div>
 
-          {/* Image Section */}
-          <div className="flex justify-center md:justify-end">
-            <img
-              src="/images/about-me.jpeg"
-              width={300}
-              height={100}
-              className="w-full max-w-sm h-auto"
-              alt="About Me"
-            />
-          </div>
+                    {/* Image Section */}
+                    <div className="flex justify-center md:justify-end">
+                        <img
+                            src="/images/about-me.jpeg"
+                            width={300}
+                            height={100}
+                            className="w-full max-w-sm h-auto"
+                            alt="About Me"
+                        />
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }
